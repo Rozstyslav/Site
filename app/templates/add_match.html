@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Match</title>
+</head>
+<body>
+    <h1>Add a New Match</h1>
+    <form action="/add_match" method="POST">
+        <label for="date">Date (YYYY-MM-DD):</label><br>
+        <input type="text" id="date" name="date"><br><br>
+
+        <label for="league">League:</label><br>
+        <input type="text" id="league" name="league"><br><br>
+
+        <label for="home_team">Home Team:</label><br>
+        <input type="text" id="home_team" name="home_team"><br><br>
+
+        <label for="away_team">Away Team:</label><br>
+        <input type="text" id="away_team" name="away_team"><br><br>
+
+        <label for="home_goals">Home Goals:</label><br>
+        <input type="number" id="home_goals" name="home_goals"><br><br>
+
+        <label for="away_goals">Away Goals:</label><br>
+        <input type="number" id="away_goals" name="away_goals"><br><br>
+
+        <button type="submit">Add Match</button>
+    </form>
+</body>
+</html>
